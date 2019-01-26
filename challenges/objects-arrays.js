@@ -139,7 +139,7 @@ The zoo wants to display both the scientific name and the animal name in front o
 const animalNames = [];
 
 zooAnimals.forEach(function(element){
-  animalNames.push(`${element.animal_name} ${element.scientific_name}` )
+  animalNames.push(` Name: ${element.animal_name}, Scientific Name: ${element.scientific_name}` )
 })
 
 console.log(animalNames);
